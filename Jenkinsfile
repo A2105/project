@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the latest changes from the GitHub repository
-                git 'your-github-repository-url'
+                git 'https://github.com/A2105/project.git'
             }
         }
 
